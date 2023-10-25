@@ -1,12 +1,4 @@
-/*
-SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-font weights:
-line heights:
-default:1
-FONT SIZE SYSTEM (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-*/
+
 :root {
   --success-color: #2ecc71;
   --error-color: #e74c3c;
@@ -20,17 +12,13 @@ html {
   font-size: 62.5%;
 }
 .container {
-  /* width: 26.5%;
-   */
+  
   width: 400px;
-  /* margin-left: 35vw;
-  margin-right: 35vw; */
-  /* border: 5px solid #000; */
+ 
+ 
   box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.3);
   border-radius: 5px;
-  /* margin-top: auto;
-  margin-bottom: auto; */
-  /* margin: 15rem auto; */
+
   padding: 3rem 4rem;
   background-color: #fff;
 }
@@ -43,14 +31,11 @@ body {
   min-height: 100vh;
 }
 h2 {
-  /* margin-bottom: 2rem;
-   */
+
   margin: 0 0 2rem;
   text-align: center;
   font-size: 2.4rem;
-  /* font-weight: 700; */
-  /* color: #000000; */
-  /* line-height: ; */
+
 }
 .form-control {
   display: flex;
@@ -59,14 +44,14 @@ h2 {
   position: relative;
 
   padding-bottom: 2rem;
-  /* margin: 0 2rem; */
+
 }
 
 form {
   padding: 0 2rem;
   display: flex;
   flex-direction: column;
-  /* gap: 2rem; */
+ 
 }
 label {
   font-size: 1.6rem;
@@ -75,7 +60,7 @@ label {
 button {
   color: #fff;
   border: 2px solid #3498db;
-  /* margin: 0 2rem; */
+ 
   padding: 1rem;
   cursor: pointer;
   border-radius: 4px;
@@ -85,8 +70,7 @@ button {
   font-size: 1.6rem;
 }
 
-/* button {
-} */
+
 input {
   padding: 1rem 1.2rem;
   border-radius: 4px;
