@@ -20,8 +20,7 @@ function error(input, message) {
 function checkEmail(input) {
   const regex =
     /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  // /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  // /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+ 
   if (regex.test(input.value.trim())) {
     success(input);
   } else {
@@ -30,7 +29,7 @@ function checkEmail(input) {
 }
 function checkLength(user, min, max) {
   if (user.value.trim().length < min) {
-    // console.log('hello');
+  
     error(user, `${user.id} must be at least ${min} characters`);
   } else if (user.value.trim().length > max) {
     error(user, `${user.id} must be less than ${max} characters`);
